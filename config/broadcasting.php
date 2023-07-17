@@ -46,6 +46,10 @@ return [
             'client_options' => [
                 // Guzzle client options: https://docs.guzzlephp.org/en/stable/request-options.html
             ],
+            'redis' => [
+                'driver' => 'redis',
+                'connection' => 'default', // Or specify a custom Redis connection if applicable
+            ],
         ],
 
         'ably' => [
