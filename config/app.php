@@ -156,9 +156,8 @@ return [
     */
 
     'providers' => ServiceProvider::defaultProviders()->merge([
-        /*
-         * Package Service Providers...
-         */
+        BeyondCode\LaravelWebSockets\WebSocketsServiceProvider::class,
+
 
         /*
          * Application Service Providers...
